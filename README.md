@@ -194,7 +194,7 @@ Install from pypi with `pip install main`.
 
 ## Entrypoints
 
-There are 0 source code entrypoints in top-level `__main__`/`__init__` files.
+There are no source code entrypoints in top-level `__main__`/`__init__` files.
 
 
 <!---Documatic-section-helloworld: entrypoints-end--->
