@@ -142,3 +142,93 @@ Possibly. Please feel free to [file an issue](https://github.com/doersino/aerial
 * Support Bing Maps as a tile source. That'd involve parametrizing how map tiles are accessed since Bing Maps doesn't use the x-y-z coordinate system favored by most every other service, instead employing [its own "Quadkeys" tile indexing approach](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system) which essentially encodes a path along a quad tree.
 * Enable ærialbot to generate side views of areas with elevation data using [rayshader](https://www.tylermw.com/a-step-by-step-guide-to-making-3d-maps-with-satellite-imagery-in-r/). This would look super neat, but elevation data is probably not available at the required level of detail for most regions of the world, and I'm not sure if the available satellite imagery is aligned with reality well enough for this to look good. Probably not worth the effort.
 * Build an [ambient device](https://en.wikipedia.org/wiki/Ambient_device), probably based around a Raspberry Pi and a square display like [this one](https://shop.pimoroni.com/products/hyperpixel-4-square?variant=30138251444307), that runs a variant of ærialbot that would download and display a new image (plus metadata) every time the user taps the screen or presses a button. It could be called "πinthesky" or something even more terrible. Basically, I envision this device to take the shape of a small wooden box sitting on a shelf or mantle. (I almost certainly won't build this because I've got enough screens in my life – so feel free to steal this idea under the condition of sending me a picture of the end result!)
+
+
+
+# Aerialbot Technical Documentation
+
+**Last updated:** 2022-01-24\
+_Document generation aided by **Documatic**_
+
+Automatic Documentation
+
+* [Introduction](#introduction)
+* [Code Overview](#code-overview)
+
+## Introduction
+
+This is a technical document detailing
+        at a high-level
+        what Aerialbot does, how it operates,
+        and how it is built.
+
+The outline of this document was generated
+        by **Documatic**.
+<!---Documatic-section-group: arch-start--->
+
+
+## Project Architecture
+
+
+<!---Documatic-section-group: arch-end--->
+
+<!---Documatic-section-group: helloworld-start--->
+
+
+## Code Overview
+
+The codebase has a flat structure, with 1 code files.
+<!---Documatic-section-helloworld: setup-start--->
+The codebase is compatible with Python 3.6 and above, because of f-string 3.6 in aerialbot/aerialbot.py.
+Install requirements with `pip install -r requirements.txt`.
+Install from pypi with `pip install main`.
+
+
+
+<!---Documatic-section-helloworld: setup-end--->
+`aerialbot.aerialbot`` has a `__main__` entrypoint.
+
+
+<!---Documatic-section-helloworld: entrypoints-start--->
+
+
+## Entrypoints
+
+There are 0 source code entrypoints in top-level `__main__`/`__init__` files.
+
+
+<!---Documatic-section-helloworld: entrypoints-end--->
+
+<!---Documatic-section-group: concept-start--->
+## Concepts
+<!---Documatic-section-group: concept-end--->
+
+<!---Documatic-section-group: helloworld-end--->
+
+<!---Documatic-section-group: dev-start--->
+
+
+## Developers
+<!---Documatic-section-dev: setup-start--->
+
+
+
+
+
+<!---Documatic-section-dev: setup-end--->
+
+<!---Documatic-section-dev: ci-start--->
+No CI/CD config files were detected.
+
+
+<!---Documatic-section-dev: ci-end--->
+
+<!---Documatic-section-group: dev-end--->
+
+### **aerialbot/**
+
+aerialbot.py has 1 functions.
+
+```python
+None
+```
